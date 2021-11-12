@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif ;
+    scroll-behavior: smooth;
+}
+
+
+/* Nav Section */
+.nav-bar{
+    background: #151e29;
+}
+
+
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px 40%;
+    
+    
+    
+}
+
+.nav-bar ul li{
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color:#ffffff; 
+}
+
+
+/* Main Section */
+#homepage{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/background5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    right: 200px;
+    color:white;
+    font-size: 2rem;
+    
+}
+
+.head{
+    margin: 5% 0;
+    text-align: center;
+}
+
+.hire{
+    
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 17px 30px;
+    border: 0;
+    color: #fff;
+    font-size: 17.5px;
+    border: 2px solid transparent;
+    border-color: #fff;
+    color: #fff;
+    background: transparent;
+    font-weight: 800;
+    line-height: 30px;
+    transition: background,color .1s ease-in-out;
+}
+    
+.hire:hover {
+        background-color: #000;
+        color: #fff;
+    }
+    
+
+
+
+/* About Me Section */
+
+#aboutme{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 3%;
+    background: #614039; 
+    color:#fff;
+    justify-content: center;
+    
+    
+
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.headings{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 25px;
+}
+
+.intro{
+    text-align: center;
+    
+}
+
+.imgcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar img{
+    height:250px;
+    width:250px;;
+}
+/* Skills Section */
+#skills{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 3%;
+    background: #213242;
+    color:#fff;
+   
+    
+}
+
+.skillsimg{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Projects Section */
+#projects{
+    display:flex;
+    flex-direction: column;
+    background: #44302e;
+    color: #fff;
+    padding-bottom: 50px;
+    
+
+}
+
+.row{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box{
+    display:flex;
+    flex-direction: column;
+    width: 450px;
+    height: 500px;
+    border: 1px solid #fff;
+    align-items: center;
+    text-align: justify;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;;
+}
+
+/* Contact Section */
+.contactimg{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: #000;
+    color:#fff;
+   
+}
+
+.linkimg{
+    padding-right: 15px;
+}
