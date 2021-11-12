@@ -51,7 +51,7 @@ html{
     height: 100vh;
     background-image: url(images/background5.jpg);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 3840px 2160px;
     font-weight: bold;
 }
 
@@ -61,7 +61,7 @@ html{
     align-items: center;
     position: absolute;
     top: 35%;
-    right: 200px;
+    left: 200px;
     color:white;
     font-size: 2rem;
     
